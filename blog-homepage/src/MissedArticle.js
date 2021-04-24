@@ -22,7 +22,7 @@ export default class MissedArticle extends React.Component
       const dateFormat = new Date(item.postedDate);
       const month = dateFormat.toLocaleString("default", { month: "long" });
       const day = dateFormat.toLocaleString("default", { day: "numeric"});
-
+// git push
       return (
         <div class="missedArticle">
           <div class="missedArticle-image">
