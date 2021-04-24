@@ -15,7 +15,6 @@ export default class YourArticle extends React.Component
     this.state = { articles: this.articles };
     
   }
-
   renderArticles = () => 
   {
     const articles = this.state.articles;

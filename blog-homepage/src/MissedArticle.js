@@ -12,7 +12,6 @@ export default class MissedArticle extends React.Component
     this.articles = require("./_data/missed-articles.json");
     this.state = { articles: this.articles };
   }
-
   renderArticles = () => 
   {
     const articles = this.state.articles;

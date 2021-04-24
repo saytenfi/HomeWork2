@@ -1,7 +1,6 @@
 import './App.css';
 import MissedArticle from './MissedArticle';
 import YourArticle from './YourArticle';
-
 function App() {
   return (
   <div className="App">
